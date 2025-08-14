@@ -438,10 +438,10 @@ function Landing(props: { handleNextPage: any }) {
             </header>
           </div>{" "}
           <div className="ContentWrapper_container">
-            <h1 className="Typography_h1__cT2UT">أسماك الوطنية</h1>
+            <h1 className="Typography_h1__cT2UT">دجاج الوطنية</h1>
             <p className="Typography_p7  Description_text__qN1Uu">
-              اكتشف منتجاتنا عالية الجودة من الأسماك الطازجة والمستوردة
-              والروبيان المميز، اطلب الآن مع أفضل وأسرع خدمة توصيل اونلاين.
+              اكتشف منتجاتنا عالية الجودة من الدجاج الطازجة والمستوردة والروبيان
+              المميز، اطلب الآن مع أفضل وأسرع خدمة توصيل اونلاين.
             </p>
             <div className="Carousel_wrapper">
               <div className="Carousel_navButtonWrapper__gL_66">
@@ -693,7 +693,7 @@ function Landing(props: { handleNextPage: any }) {
                 </div>
                 <span className="minus">
                   <img
-                    alt="قائمة أسماك الوطنية"
+                    alt="قائمة دجاج الوطنية"
                     src="/mb.jpg"
                     decoding="async"
                     data-nimg="fill"
@@ -742,7 +742,7 @@ function Landing(props: { handleNextPage: any }) {
                     className="Typography_p1__A2FUF MerchantCard_name__e7RSA"
                     style={{ fontSize: 25, height: 35, padding: "5px 0" }}
                   >
-                    قائمة أسماك الوطنية
+                    قائمة دجاج الوطنية
                   </p>
                 </div>
                 <div className="MerchantCard_secondaryDetails__c9r_K">
@@ -766,7 +766,7 @@ function Landing(props: { handleNextPage: any }) {
                     <p className="Typography_p8">4.7</p>
                   </div>
                   <p className="Typography_p8 MerchantCard_tags___u15_">
-                    الأسماك الطازجة والمستوردة والروبيان المميز
+                    الدجاج الطازجة والمستوردة والروبيان المميز
                   </p>
                 </div>
               </div>
@@ -899,7 +899,7 @@ function Landing(props: { handleNextPage: any }) {
                       <span className="minus">
                         <img
                           alt="3 كرتون دجاج 10 حبة * 1000 جرام"
-                          src="/ab.jpg"
+                          src="https://cdn.salla.sa/XRVjV/996a1772-39d1-4899-8ce9-a45b1f1ec9cc-1000x1000-aDzCkMoB3GZ6h7jmqE1IX2Avp6ZZOoqXYBYthDX8.png"
                           decoding="async"
                           data-nimg="fill"
                           style={{
@@ -939,7 +939,7 @@ function Landing(props: { handleNextPage: any }) {
                             id: 0,
                             name: "5 حبة بط بلدي طازج فقط 8 دينار”                            ",
                             price: "8.00",
-                            img: "/ab.jpg",
+                            img: "https://cdn.salla.sa/XRVjV/996a1772-39d1-4899-8ce9-a45b1f1ec9cc-1000x1000-aDzCkMoB3GZ6h7jmqE1IX2Avp6ZZOoqXYBYthDX8.png",
                           });
                         }}
                         data-product-id="product_1"
@@ -1027,8 +1027,8 @@ function Landing(props: { handleNextPage: any }) {
                     <div className="CardProductImage_imageWrapper__0rzrL ProductCardVertical_image__B5TvN">
                       <span className="minus">
                         <img
-                          alt="عرض الروبيان – لذّة لا تُقاوم!"
-                          src="/kuwaiti-jumbo-robian-10kg.jpg"
+                          alt="5 حبات ديك بلدي احمر طازج"
+                          src="https://cdn.salla.sa/XRVjV/b4685e9a-b8c6-470c-95e5-661954ba22aa-1000x1000-kEtTUlu4jHbXTEFSIkoUbP73As4EbXUMWJJq6DqZ.png"
                           decoding="async"
                           data-nimg="fill"
                           style={{
@@ -1056,7 +1056,7 @@ function Landing(props: { handleNextPage: any }) {
                         5.99 د.ك
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
-                        عرض الروبيان – لذّة لا تُقاوم!
+                        5 حبات ديك بلدي احمر طازج
                       </p>
                     </div>
                     <div className="a_pluss_2">
@@ -1066,14 +1066,14 @@ function Landing(props: { handleNextPage: any }) {
                         onClick={() => {
                           handleAddtoCart({
                             id: 1,
-                            name: "عرض الروبيان – لذّة لا تُقاوم!",
+                            name: "5 حبات ديك بلدي احمر طازج",
                             price: "5.99",
                             img: "/shrimp_offer.jpg",
                           });
                         }}
                         data-product-id="product_2"
                         data-product-image="/shrimp_offer.jpg"
-                        data-product-name="عرض الروبيان – لذّة لا تُقاوم!"
+                        data-product-name="5 حبات ديك بلدي احمر طازج"
                         data-price={5.99}
                         data-class-add="btn_add_2"
                         data-class-remove="btn_remove_2"
@@ -1155,8 +1155,8 @@ function Landing(props: { handleNextPage: any }) {
                     <div className="CardProductImage_imageWrapper__0rzrL ProductCardVertical_image__B5TvN">
                       <span className="minus">
                         <img
-                          alt="عرض الروبيان – لذّة لا تُقاوم!"
-                          src="/ron.webp"
+                          alt="5 حبات ديك بلدي احمر طازج"
+                          src="https://cdn.salla.sa/XRVjV/b4685e9a-b8c6-470c-95e5-661954ba22aa-1000x1000-kEtTUlu4jHbXTEFSIkoUbP73As4EbXUMWJJq6DqZ.png"
                           decoding="async"
                           data-nimg="fill"
                           style={{
@@ -1196,12 +1196,12 @@ function Landing(props: { handleNextPage: any }) {
                             id: 100,
                             name: "1 كيلو روبيان العملاق منظف مقشر كامل وازاله خيط الرمل ",
                             price: "7.99",
-                            img: "/ron.webp",
+                            img: "https://cdn.salla.sa/XRVjV/b4685e9a-b8c6-470c-95e5-661954ba22aa-1000x1000-kEtTUlu4jHbXTEFSIkoUbP73As4EbXUMWJJq6DqZ.png",
                           });
                         }}
                         data-product-id="product_2"
                         data-product-image="/shrimp_offer.jpg"
-                        data-product-name="عرض الروبيان – لذّة لا تُقاوم!"
+                        data-product-name="5 حبات ديك بلدي احمر طازج"
                         data-price={5.99}
                         data-class-add="btn_add_2"
                         data-class-remove="btn_remove_2"
